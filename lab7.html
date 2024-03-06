@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab task 7</title>
+    <style>
+        * {
+            margin: 10;
+            padding: 10;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Product Sans', sans-serif;
+            background-color: #f5deb3;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 100px auto;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .install-container {
+            background-color: #000;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .install-container p {
+            color: #808080;
+            margin-bottom: 20px;
+        }
+
+        .feedback-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .satisfied-button {
+            background-color: white; 
+            color: black;
+            border-radius: 0; 
+        }
+
+        .not-satisfied-button {
+            background-color: white; 
+            color: black;
+            border-radius: 100%; 
+        }
+
+        .satisfied-button:hover{
+            background-color: green;
+        }
+        .not-satisfied-button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="install-container">
+            <h2>Install YouTube Music</h2>
+            <p>Add YouTube Music to your desktop for quick and easy access</p>
+        </div>
+
+        <div class="feedback-container">
+            <h2>Satisfied with our service?</h2>
+            <div class="button-container">
+                <button class="button satisfied-button">Yes</button>
+                <button class="button not-satisfied-button">No</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
